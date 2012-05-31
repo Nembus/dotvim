@@ -1,8 +1,11 @@
 # To Install
 
-(Re)move ~/.vim and ~/.vimrc if you have them already, and run:
+This is mostly a clone of Pivotal Lab's configuration:
+git@github.com:pivotal/vim-config.git
 
-    git clone git@github.com:pivotal/vim-config.git ~/.vim
+
+(Re)move ~/.vim and ~/.vimrc if you have them already, and run:
+    git@github.com:Nembus/dotvim.git
     cd ~/.vim
     git submodule update --init
     ln -s ~/.vim/vimrc ~/.vimrc
